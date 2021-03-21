@@ -1,4 +1,4 @@
-src/templates/
+templates/
 node_modules/
 dist/
 coverage/
