@@ -1,5 +1,6 @@
 import { logs } from '../utils';
 import fse from 'fs-extra';
+import path from 'path';
 
 const { logInfo, logError } = logs;
 export default class Generator implements IGenerator {
@@ -16,7 +17,7 @@ export default class Generator implements IGenerator {
         logInfo(`
         Creating project ${init}, using ${templateName} template
         `);
-        const templatePath = `../templates/${templateName}`;
+        const templatePath = `${path.join(__dirname)}/../templates/${templateName}`;
         const directoryPath = `${process.cwd()}/${init}`;
         try{
         // Create directory
