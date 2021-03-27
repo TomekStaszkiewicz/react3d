@@ -1,3 +1,3 @@
 interface IGenerator {
-    run: () => void;
+    run: () => Promise<string>;
 }

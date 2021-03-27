@@ -1,7 +1,7 @@
 const DEFAULT_ARGUMENTS: IProgramArguments = {
     init: '',
     domain: '',
-    typescript: true
+    typescript: false
 };
 
 export default DEFAULT_ARGUMENTS;

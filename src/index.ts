@@ -7,8 +7,8 @@ const args = parseArguments(process.argv);
 
 const generator = new Generator(args);
 
-generator.run().then(() => {
-    logInfo('Success');
+generator.run().then((result) => {
+    logInfo(`Succesfully completed action: ${result}`);
 }).catch((err) => {
-    logError('Error');
+    logError(err);
 });

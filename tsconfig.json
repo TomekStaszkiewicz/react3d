@@ -7,6 +7,7 @@
         "noImplicitAny": true,
         "moduleResolution": "node",
         "strict": true,
+        "lib": ["ESNext"],
         "sourceMap": true,
         "outDir": "dist",
         "baseUrl": "./src/",
@@ -22,7 +23,6 @@
     ],
     "exclude": [
         "node_modules",
-        "templates",
-        "src/**/tests/*"
+        "templates"
     ]
 }
