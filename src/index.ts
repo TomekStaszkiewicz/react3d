@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import parseArguments from './cli';
 import Generator from './bin';
 import { logs } from './utils';
