@@ -1,6 +1,6 @@
 {
   "name": "react-3xd",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Simple CLI utilities for domain driven development React aplications.",
   "main": "index.js",
   "author": "Tomasz Staszkiewicz <staszkiewicztoma@gmail.com>",
