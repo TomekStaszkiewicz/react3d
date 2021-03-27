@@ -91,6 +91,7 @@ export default class Generator implements IGenerator {
 
         if(this.cliArguments.domain){
             await this.createNewDomain();
+            return 'create new domain';
         }
 
         return '';
