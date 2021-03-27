@@ -1,6 +1,6 @@
 import FileManager from '../FileManager';
 import * as LOGS from "../../utils/logs";
-
+ 
 describe('FileManager', () => {
     describe('parseFile', () => {
         it('returns the original string if no placeholder inside', () => {
