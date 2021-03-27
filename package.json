@@ -22,6 +22,7 @@
   "scripts": {
     "lint": "eslint --cache --ignore-pattern .eslintignore",
     "typecheck": "tsc --noEmit ",
+    "prebuild": "rm -r ./dist/",
     "build": "babel src --extensions \".ts,.js\" --out-dir dist --source-maps inline",
     "postbuild": "cp -r templates dist/templates/",
     "test": "jest --coverage"
